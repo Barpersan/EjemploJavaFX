@@ -34,7 +34,7 @@ public class Ejemplo2 extends Application {
 		//Ponemos un titulo al formulario y le damos formato.
 		Text formulario= new Text("Formulario Mascotas");
 		formulario.setFill(Color.DARKMAGENTA);
-		formulario.setFont(Font.font("Calibri", FontWeight.NORMAL, FontPosture.REGULAR, 35));
+		formulario.setFont(Font.font("Calibri", FontWeight.NORMAL, FontPosture.REGULAR, 50));
 	
 		Text nombre = new Text("Nombre:");
 		TextField txtnombre= new TextField();
