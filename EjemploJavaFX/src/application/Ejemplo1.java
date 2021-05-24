@@ -33,8 +33,8 @@ public class Ejemplo1 extends Application {
 		
 		//Ponemos un titulo al formulario y le damos formato.
 		Text formulario= new Text("Formulario Mascotas");
-		formulario.setFill(Color.DARKMAGENTA);
-		formulario.setFont(Font.font("Calibri", FontWeight.NORMAL, FontPosture.REGULAR, 35));
+		formulario.setFill(Color.DARKSLATEBLUE);
+		formulario.setFont(Font.font("Calibri", FontWeight.BLACK, FontPosture.ITALIC, 40));
 	
 		Text nombre = new Text("Nombre:");
 		TextField txtnombre= new TextField();
@@ -47,11 +47,11 @@ public class Ejemplo1 extends Application {
 		
 		Text raza = new Text("Raza:");
 		ComboBox<String> raza1 = new ComboBox<String>();
-		raza1.getItems().addAll("pastor alemán", "bulldog", "chihuahua", "pitbull", "pomeramia", "shih tzu");
+		raza1.getItems().addAll("pastor alemán", "bulldog", "chihuahua", "pitbull");
 		
 		
 		CheckBox pedigri = new CheckBox ("¿Tiene pedigrí?");
-		
+		pedigri.setSelected(true);
 		
 		
 		Text precio = new Text("Precio:");
